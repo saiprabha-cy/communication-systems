@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./telemetry/telemetry-data-model/src"
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
+}
