@@ -1,0 +1,13 @@
+{
+  "input_sample_rate_hz": 200000,
+  "output_sample_rate_hz": 100000.0,
+  "input_samples": 200000,
+  "output_samples": 100000,
+  "input_bytes": 1600000,
+  "output_bytes": 800000,
+  "filter_taps": 401,
+  "group_delay_ms": 1.0,
+  "output_rms": 0.6999459862709045,
+  "output_peak": 0.719815194606781,
+  "all_output_samples_finite": true
+}
