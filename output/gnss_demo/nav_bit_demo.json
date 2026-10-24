@@ -1,0 +1,15 @@
+{
+  "estimated_bits_pm1": [
+    -1,
+    1,
+    -1
+  ],
+  "soft_decision_values": [
+    -10.01418045170476,
+    2.7491008740539655,
+    -26.376988312310914
+  ],
+  "bit_rate_bps": 50.0,
+  "bit_duration_ms": 20,
+  "note": "Assumes the code phase, Doppler, bit boundary and useful carrier phase are already known. Not a complete GPS LNAV decoder."
+}

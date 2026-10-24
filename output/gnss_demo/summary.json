@@ -1,0 +1,70 @@
+{
+  "synthetic_truth": {
+    "prn": 1,
+    "sample_rate_hz": 4092000.0,
+    "duration_s": 0.08,
+    "samples": 327360,
+    "samples_per_chip": 4,
+    "samples_per_code_period": 4092,
+    "true_doppler_hz": 2500.0,
+    "true_code_delay_samples": 731,
+    "noise_sigma": 0.1,
+    "amplitude": 1.0,
+    "true_carrier_phase_rad": 0.4,
+    "nav_bits_seed": 1234,
+    "signal_model": "synthetic complex-baseband GPS L1 C/A-like signal"
+  },
+  "acquisition": {
+    "peak_power": 16712495.659777151,
+    "doppler_hz": 2500.0,
+    "code_phase_samples": 731,
+    "second_peak_power": 74559.46499879661,
+    "peak_to_second_peak_ratio": 224.14988707398706,
+    "doppler_grid_hz": [
+      -10000.0,
+      10000.0,
+      500.0
+    ],
+    "interpretation": "Peak-ratio diagnostic only; not a calibrated P_FA detector.",
+    "prn": 1,
+    "sample_rate_hz": 4092000.0,
+    "true_doppler_hz": 2500.0,
+    "true_code_delay_samples": 731
+  },
+  "tracking": {
+    "mean_prompt_magnitude": 4091.7078114313963,
+    "mean_abs_dll_discriminator": 0.0005344069885157875,
+    "mean_abs_pll_phase_error_rad": 1.5707551904970298
+  },
+  "navigation_bit_demo": {
+    "estimated_bits_pm1": [
+      -1,
+      1,
+      -1
+    ],
+    "soft_decision_values": [
+      -10.01418045170476,
+      2.7491008740539655,
+      -26.376988312310914
+    ],
+    "bit_rate_bps": 50.0,
+    "bit_duration_ms": 20,
+    "note": "Assumes the code phase, Doppler, bit boundary and useful carrier phase are already known. Not a complete GPS LNAV decoder."
+  },
+  "files": [
+    "demo.c64",
+    "synthetic_truth.json",
+    "acquisition.json",
+    "tracking.json",
+    "nav_bit_demo.json",
+    "iq_samples.png",
+    "acquisition_correlation.png",
+    "tracking_correlators.png"
+  ],
+  "limitations": [
+    "Synthetic signal only; no real satellite was received.",
+    "Peak-ratio diagnostic is not a formal false-alarm probability.",
+    "Tracking is open-loop diagnostic, not a full closed-loop receiver.",
+    "Navigation demonstration is not full GPS LNAV parity decoding."
+  ]
+}

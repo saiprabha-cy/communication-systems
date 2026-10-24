@@ -1,0 +1,17 @@
+{
+  "peak_power": 16712495.659777151,
+  "doppler_hz": 2500.0,
+  "code_phase_samples": 731,
+  "second_peak_power": 74559.46499879661,
+  "peak_to_second_peak_ratio": 224.14988707398706,
+  "doppler_grid_hz": [
+    -10000.0,
+    10000.0,
+    500.0
+  ],
+  "interpretation": "Peak-ratio diagnostic only; not a calibrated P_FA detector.",
+  "prn": 1,
+  "sample_rate_hz": 4092000.0,
+  "true_doppler_hz": 2500.0,
+  "true_code_delay_samples": 731
+}

@@ -1,0 +1,15 @@
+{
+  "prn": 1,
+  "sample_rate_hz": 4092000.0,
+  "duration_s": 0.08,
+  "samples": 327360,
+  "samples_per_chip": 4,
+  "samples_per_code_period": 4092,
+  "true_doppler_hz": 2500.0,
+  "true_code_delay_samples": 731,
+  "noise_sigma": 0.1,
+  "amplitude": 1.0,
+  "true_carrier_phase_rad": 0.4,
+  "nav_bits_seed": 1234,
+  "signal_model": "synthetic complex-baseband GPS L1 C/A-like signal"
+}
