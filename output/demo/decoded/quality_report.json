@@ -1,0 +1,43 @@
+{
+  "generated_utc": "2026-10-24T16:11:58.815121+00:00",
+  "input": {
+    "input_file": "output\\demo\\synthetic_apt.wav",
+    "input_type": "synthetic_apt_like_audio",
+    "sample_rate_hz": 12480,
+    "sample_count": 499200,
+    "duration_seconds": 40.0,
+    "noise_std": 0.01,
+    "synthetic": true
+  },
+  "apt": {
+    "pixel_rate_hz": 4160,
+    "line_rate_hz": 2.0,
+    "pixels_per_line": 2080,
+    "subcarrier_hz_nominal": 2400.0
+  },
+  "processing": {
+    "processing_sample_rate_hz": 12480,
+    "recovered_pixel_count": 166400,
+    "candidate_line_count": 80,
+    "channel_a_shape": [
+      80,
+      909
+    ],
+    "channel_b_shape": [
+      80,
+      909
+    ],
+    "sync_score_mean": 0.8488514040251417,
+    "sync_score_min": 0.8442224498041174,
+    "channel_a_pixel_std": 0.1652406802687444,
+    "channel_b_pixel_std": 0.16601948301370317,
+    "channel_a_clipping_fraction": 0.0,
+    "channel_b_clipping_fraction": 0.0
+  },
+  "limitations": [
+    "Sync detection uses a simplified teaching template.",
+    "Line count is not proof of a valid real satellite pass.",
+    "Quality values depend on filtering and intensity scaling.",
+    "Cross-validation against an independent decoder is recommended."
+  ]
+}
