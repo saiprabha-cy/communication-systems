@@ -1,0 +1,6 @@
+timestamp_utc,icao,latitude,longitude,altitude_ft,ground_speed_kt,source
+2026-10-24T10:00:00Z,ABC123,13.0,80.1,12000,240,synthetic
+2026-10-24T10:00:05Z,ABC123,13.05,80.16,12200,242,synthetic
+2026-10-24T10:00:10Z,ABC123,13.1,80.22,12400,245,synthetic
+2026-10-24T10:00:00Z,DEF456,12.85,80.35,9000,210,synthetic
+2026-10-24T10:00:05Z,DEF456,12.91,80.3,8800,208,synthetic

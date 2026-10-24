@@ -1,0 +1,43 @@
+{
+  "file": "data\\iq\\synthetic_df17.c64",
+  "sample_rate_hz": 8000000,
+  "sample_count": 960,
+  "duration_seconds": 0.00012,
+  "bytes_on_disk": 7680,
+  "dtype": "complex64",
+  "peak_amplitude": 1.0,
+  "mean_power": 0.4833333194255829,
+  "preamble_candidates": 14,
+  "candidate_indices": [
+    0,
+    28,
+    76,
+    172,
+    252,
+    344,
+    412,
+    484,
+    560,
+    612,
+    684,
+    736,
+    812,
+    860
+  ],
+  "candidate_scores": [
+    1.0,
+    0.75,
+    0.75,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.75,
+    1.0,
+    0.75,
+    1.0,
+    1.0,
+    1.0
+  ]
+}
